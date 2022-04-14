@@ -1,0 +1,83 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+header {
+  background-color: rgba(68,68,68,255);
+  height: 100px;
+  /* border: solid red 5px; */
+}
+
+header img {
+  float: left;
+  padding: 15px 15px 15px 75px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: rgb(197,197,197);
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  float: left;
+}
+
+img[alt="Hero Image"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main li {
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ h2 {
+  font-weight:bold;
+  font-size: larger;
+  position: sticky;
+ }
+
+ article {
+  max-height: 375px;
+  width: 480px;
+  overflow: scroll;
+  padding: 20px;
+ }
+
+ button {
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+   height: 30px;
+ }
+
+ button:hover {
+   transition: 350ms;
+ }
+
+footer {
+  background-color: rgba(68,68,68,255);
+  height: 125px;
+}
